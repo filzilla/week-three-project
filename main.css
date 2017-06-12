@@ -1,0 +1,99 @@
+body{
+  box-sizing: border-box;
+  margin-top: 50px;
+
+}
+
+.calc-container{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-one{
+  height: 60px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: flex-start;
+}
+.row-two{
+  height: 60px;
+  flex-basis: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.row-three{
+  height: 60px;
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.row-four{
+  height: 60px;
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+
+.button-one{
+  background-color: #00994d;
+  width: 150px;
+  height: 150px;
+  color: white;
+  font-size: 3em;
+  border: 1px solid lightgray;
+}
+
+.button-two{
+  background-color: #00cc66;
+  width: 150px;
+  height: 150px;
+  color: black;
+  font-size: 3em;
+  border: 1px solid lightgray;
+}
+.row-one{
+  display: flex;
+  flex-wrap: wrap;
+}
+.clear{
+  text-align: center;
+  flex-basis: 25%;
+}
+.clear{
+
+  flex-basis: 25%;
+}
+.input{
+  width: 300px;
+}
+.row-two{
+  display: flex;
+  flex-wrap: wrap;
+}
+.row-three{
+  display: flex;
+  flex-wrap: wrap;
+}
+.button-one:hover {
+    background-color: #00cc66;
+}
+.button-two:hover{
+  color:white;
+}
+
+/* item:hover{
+o\pointer
+
+then also for the background color as well
+}
